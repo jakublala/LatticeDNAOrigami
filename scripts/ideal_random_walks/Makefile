@@ -2,8 +2,8 @@
 CC = mpicxx
 #CPPFLAGS = -I ../../include -g
 #LDFLAGS =  -lboost_program_options -g
-CPPFLAGS = -I ../../include -03
-LDFLAGS =  -lboost_program_options -lboost_mpi -lboost_serialization -03
+CPPFLAGS = -I ../../include -g
+LDFLAGS =  -lboost_program_options -lboost_mpi -lboost_serialization -g
 BUILD = ../../build/
 vpath %.h ../../include
 vpath %.cpp src
