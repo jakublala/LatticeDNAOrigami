@@ -2,8 +2,8 @@
 CC = mpicxx
 #CPPFLAGS = -I ../../include -g
 #LDFLAGS =  -lboost_program_options -g
-CPPFLAGS = -I ../../include -O3
-LDFLAGS =  -lboost_program_options -lboost_mpi -lboost_serialization -O3
+CPPFLAGS = -I ../../include -03
+LDFLAGS =  -lboost_program_options -lboost_mpi -lboost_serialization -03
 BUILD = ../../build/
 vpath %.h ../../include
 vpath %.cpp src
@@ -18,7 +18,7 @@ $(TARGET): calc_num_walks.o $(BUILD)origami_system.o $(BUILD)utility.o $(BUILD)n
 	$(CC) -o $@ $^ $(LDFLAGS)
 
 $(BUILD)calc_num_walks.o: calc_num_walks.cpp
-	$(CC) -o $@ -c $(CPPFLAGS) $<
+	$(CC) -o $@ -c -std=c++14  $(CPPFLAGS) $<
 
 .PHONY: clean
 clean:
