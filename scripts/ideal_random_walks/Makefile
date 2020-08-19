@@ -13,10 +13,10 @@ TARGET = calc_num_walks
 all: $(TARGET)
 
 $(TARGET): calc_num_walks.o $(BUILD)origami_system.o $(BUILD)utility.o $(BUILD)nearest_neighbour.o $(BUILD)files.o $(BUILD)jsoncpp.o $(BUILD)domain.o $(BUILD)simulation.o $(BUILD)parser.o $(BUILD)random_gens.o $(BUILD)movetypes.o $(BUILD)ideal_random_walk.o
-	$(CC) -D_GLIBCXX_USE_CXX11_ABI=0 -o $@ $^ $(LDFLAGS)
+	$(CC) -o $@ $^ $(LDFLAGS)
 
 calc_num_walks.o: calc_num_walks.cpp
-	$(CC) -D_GLIBCXX_USE_CXX11_ABI=0 -c $^ $(CPPFLAGS)
+	$(CC) -c $^ $(CPPFLAGS)
 
 clean:
 	rm *.o
