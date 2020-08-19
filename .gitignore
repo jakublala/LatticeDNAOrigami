@@ -21,3 +21,4 @@ dist/
 localtests/
 tests/data/
 origamipy.egg-info/
+.spyproject/
