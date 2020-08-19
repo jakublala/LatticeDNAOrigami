@@ -9,6 +9,7 @@
 compile_commands.json
 prereqs.txt
 scripts/ideal_random_walks/num_walks.arch
+scripts/ideal_random_walks/calc_num_walks.o
 *__pycache__/
 .cache/
 .d/
