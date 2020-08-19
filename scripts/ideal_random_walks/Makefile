@@ -16,7 +16,7 @@ $(TARGET): calc_num_walks.o $(BUILD)origami_system.o $(BUILD)utility.o $(BUILD)n
 	$(CC) -D_GLIBCXX_USE_CXX11_ABI=0 -o $@ $^ $(LDFLAGS)
 
 calc_num_walks.o: calc_num_walks.cpp
-	$(CC) -c $^ $(CPPFLAGS)
+	$(CC) -D_GLIBCXX_USE_CXX11_ABI=0 -c $^ $(CPPFLAGS)
 
 clean:
 	rm *.o
