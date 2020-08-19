@@ -7,7 +7,7 @@
 #include "utility.h"
 
 using namespace CalcNumWalks;
-using namespace Parser;
+using namespace parser;
 
 int main(int argc, char* argv[]) {
     InputParameters params {argc, argv};
