@@ -15,10 +15,7 @@ all: $(TARGET)
 testing: $(TESTTARGET)
 
 $(TARGET): $(BUILD)calc_num_walks.o $(BUILD)origami_system.o $(BUILD)utility.o $(BUILD)nearest_neighbour.o $(BUILD)files.o $(BUILD)jsoncpp.o $(BUILD)domain.o $(BUILD)simulation.o $(BUILD)parser.o $(BUILD)random_gens.o $(BUILD)movetypes.o $(BUILD)ideal_random_walk.o
-	$(CC) -o -std=c++14 $@ $^ $(LDFLAGS)
-
-$(BUILD)calc_num_walks.o: calc_num_walks.cpp
-	$(CC) -c -std=c++14 $@ $(CPPFLAGS) $<
+	$(CC) -o -std=c++14 $@ $^ -I ../../include $(LDFLAGS)
 
 .PHONY: clean
 clean:
