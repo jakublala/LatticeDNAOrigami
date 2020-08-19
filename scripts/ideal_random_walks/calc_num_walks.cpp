@@ -18,7 +18,7 @@ void CalcNumWalks::calc_num_ideal_walks(int max_d, int max_N, string filename) {
     IdealRandomWalks ideal_random_walks {};
     VectorThree start_pos {0, 0, 0};
     for (int x {0}; x <= max_d; x++) {
-        cout << x << "\n";
+        std::cout << x << "\n";
         for (int y {0}; y <= x; y++) {
             for (int z {0}; z <= y; z++) {
                 VectorThree end_pos {x, y, z};
