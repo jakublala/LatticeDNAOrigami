@@ -8,7 +8,7 @@ BUILD = ../../build/
 vpath %.h ../../include
 #vpath %.cpp src
 OBJECTS := $(wildcard $(BUILD)*.o)
-OBJECTS := $(filter-out main.o, $(OBJECTS)))
+OBJECTS := $(filter-out $(BUILD)main.o, $(OBJECTS)))
 
 TARGET = calc_num_walks
 
