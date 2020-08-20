@@ -7,7 +7,7 @@ LDFLAGS =  -lboost_filesystem -lboost_system -lboost_program_options -lboost_mpi
 BUILD = ../../build/
 vpath %.h ../../include
 #vpath %.cpp src
-OBJECTS := $(wildcard $(BUILD)/*.o)
+OBJECTS := $(wildcard $(BUILD)*.o)
 OBJECTS := $(filter-out main.o, $(OBJECTS)))
 
 TARGET = calc_num_walks
