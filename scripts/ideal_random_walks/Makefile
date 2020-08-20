@@ -11,7 +11,6 @@ vpath %.cpp ../../src
 
 OBJECTS := $(wildcard $(BUILD)*.o)
 OBJECTS := $(filter-out $(BUILD)main.o, $(OBJECTS))
-OBJECTS := $(filter-out $(BUILD)transform_movetypes.o, $(OBJECTS))
 
 SOURCES_ALL := $(wildcard $(SRCDIR)/*.cpp)
 OBJECTS_ALL := $(subst .cpp,.o,$(SOURCES))
