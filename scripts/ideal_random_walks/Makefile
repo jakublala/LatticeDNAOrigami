@@ -7,14 +7,14 @@ LDFLAGS =  -lboost_filesystem -lboost_system -lboost_program_options -lboost_mpi
 BUILD = ../../build/
 vpath %.h ../../include
 vpath %.cpp ../../src
-OBJECTS := $(wildcard $(BUILD)*.o)
-OBJECTS := $(filter-out $(BUILD)main.o, $(OBJECTS)))
+#OBJECTS := $(wildcard $(BUILD)*.o)
+#OBJECTS := $(filter-out $(BUILD)main.o, $(OBJECTS)))
 
 TARGET = calc_num_walks
 
 all: $(TARGET)
 
-$(TARGET): calc_num_walks.o $(OBJECTS)
+$(TARGET): calc_num_walks.o $(BUILD)origami_system.o $(BUILD)utility.o $(BUILD)nearest_neighbour.o $(BUILD)files.o $(BUILD)jsoncpp.o $(BUILD)origami_potential.o $(BUILD)domain.o $(BUILD)simulation.o $(BUILD)parser.o $(BUILD)random_gens.o $(BUILD)movetypes.o $(BUILD)ideal_random_walk.o
 	$(CC) -o $@ $^ $(LDFLAGS)
 
 calc_num_walks.o: calc_num_walks.cpp
