@@ -6,7 +6,7 @@ CPPFLAGS = -I ../../include -O3
 LDFLAGS =  -lboost_filesystem -lboost_system -lboost_program_options -lboost_mpi -lboost_serialization -O3
 BUILD = ../../build/
 vpath %.h ../../include
-#vpath %.cpp src
+vpath %.cpp ../../src
 OBJECTS := $(wildcard $(BUILD)*.o)
 OBJECTS := $(filter-out $(BUILD)main.o, $(OBJECTS)))
 
