@@ -5,16 +5,22 @@ CC = mpicxx
 CPPFLAGS = -std=c++14 -I ../../include -O3
 LDFLAGS =  -lboost_filesystem -lboost_system -lboost_program_options -lboost_mpi -lboost_serialization -O3
 BUILD = ../../build/
+SRCDIR = ../../src
 vpath %.h ../../include
 vpath %.cpp ../../src
-#OBJECTS := $(wildcard $(BUILD)*.o)
-#OBJECTS := $(filter-out $(BUILD)main.o, $(OBJECTS)))
+
+OBJECTS := $(wildcard $(BUILD)*.o)
+OBJECTS := $(filter-out $(BUILD)main.o, $(OBJECTS)))
+OBJECTS := $(filter-out $(BUILD)transform_movetypes.o, $(OBJECTS)))
+
+SOURCES_ALL := $(wildcard $(SRCDIR)/*.cpp)
+OBJECTS_ALL := $(subst .cpp,.o,$(SOURCES))
 
 TARGET = calc_num_walks
 
 all: $(TARGET)
 
-$(TARGET): calc_num_walks.o $(BUILD)origami_system.o $(BUILD)utility.o $(BUILD)nearest_neighbour.o $(BUILD)files.o $(BUILD)jsoncpp.o $(BUILD)origami_potential.o $(BUILD)order_params.o $(BUILD)bias_functions.o $(BUILD)top_constraint_points.o $(BUILD)domain.o $(BUILD)simulation.o $(BUILD)parser.o $(BUILD)random_gens.o $(BUILD)movetypes.o $(BUILD)ideal_random_walk.o
+$(TARGET): calc_num_walks.o $(OBJECTS)
 	$(CC) -o $@ $^ $(LDFLAGS)
 
 calc_num_walks.o: calc_num_walks.cpp
