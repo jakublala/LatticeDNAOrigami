@@ -4,6 +4,7 @@
 
 import numpy as np
 import json
+from origamipy import read_windows_file
 
 
 def main():
