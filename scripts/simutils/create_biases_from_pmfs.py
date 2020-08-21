@@ -4,13 +4,13 @@
 
 import numpy as np
 import json
-from origamipy import read_windows_file
+from origamipy import us_process.read_windows_file
 
 
 def main():
     filebase = 'inps/snodin-staple_temp-344_run-0_rep-0'
     wins_filename = 'inps/snodin_344_staple.windows'
-    wins = read_windows_file(wins_filename)
+    wins = us_process.read_windows_file(wins_filename)
     pmfs_filename = 'outs/snodin-long_temp-344_run-1_rep-0_pmfs.sds'
     pmf_array = np.loadtxt(pmfs_filename, skiprows=1)
     pmfs = {(i[0], i[1]): i[2] for i in pmf_array}
