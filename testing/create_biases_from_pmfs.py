@@ -9,7 +9,7 @@ import json
 def main():
     filebase = 'snodin-staple_temp-344_run-0_rep-0'
     wins_filename = 'test_mwus.windows'
-    wins = read_windows(wins_filename)
+    wins = read_windows_file(wins_filename)
     pmfs_filename = 'snodin-long_temp-344_run-1_rep-0_pmfs.sds'
     pmf_array = np.loadtxt(pmfs_filename, skiprows=1)
     pmfs = {(i[0], i[1]): i[2] for i in pmf_array}
