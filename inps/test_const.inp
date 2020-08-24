@@ -1,5 +1,5 @@
 # System input and parameters
-origami_input_filename="snodin_unbound.json"
+origami_input_filename=snodin_unbound.json
 temp=330
 staple_M=1e-6
 cation_M=1
@@ -8,14 +8,14 @@ staple_u_mult=1
 max_total_staples=24
 max_type_staples=2
 domain_update_biases_present=false
-order_parameter_file="ops_default.json"
-#bias_functions_file="us_bias_functions.json"
+order_parameter_file=ops_default.json
+#bias_functions_file=us_bias_functions.json
 bias_functions_mult=1
 #energy_filebase=
 simulation_type=constant_temp
 
 # General simulation parameters
-movetype_file="movetypes_default.json"
+movetype_file=movetypes_default.json
 #num_walks_filename=inps/num_walks.arch
 vmd_file_dir=scripts/vmd
 centering_freq=100000
