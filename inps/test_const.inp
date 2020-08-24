@@ -12,7 +12,7 @@ order_parameter_file=ops_default.json
 bias_functions_file=us_bias_functions.json
 bias_functions_mult=1
 #energy_filebase=
-simulation_type=umbrella_sampling
+simulation_type=constant_temp
 
 # General simulation parameters
 movetype_file=movetypes_default.json
@@ -32,7 +32,7 @@ max_rel_P_diff=0.1
 #biases_file=outs/test_us.biases
 
 # Output options
-output_filebase=outs/test_us
+output_filebase=outs/test_const
 logging_freq=100000
 configs_output_freq=100000
 vtf_output_freq=100000

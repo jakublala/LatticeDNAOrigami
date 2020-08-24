@@ -20,7 +20,7 @@ def read_seqfile(filename):
         seqs = [seq for seq in seqs if not '>' in seq]
         seqs = [seq for seq in seqs if seq != '']
 
-    return seqs
+    return seqs # a list of string sequences
 
 def reverse_complement(seq):
     """Return reverse-complement."""
@@ -32,8 +32,8 @@ def reverse_complement(seq):
     return comp_seq[::-1]
 
 # Read sequences from file
-scaffold = read_seqfile(SCAFFOLD_SEQFILE)[0]
-staples = read_seqfile(STAPLE_SEQFILE)
+scaffold = read_seqfile(SCAFFOLD_SEQFILE)[0] # single string thus [0]
+staples = read_seqfile(STAPLE_SEQFILE) # a list of strings
 
 # Find starting base indices in scaffold
 scaffold_domains = []
@@ -42,18 +42,18 @@ scaffold_identities = []
 staple_identities = []
 scaffold_indices = []
 identity = 1
-for staple in staples:
+for staple in staples: # iterate through all staples
     reverse_comp_staple = reverse_complement(staple)
     if len(staple) in [15, 16]:
         domain_identity = identity
-        identity +=1
-        scaffold_domain = reverse_comp_staple
-        domain_index = scaffold.find(scaffold_domain)
+        identity += 1
+        scaffold_domain = reverse_comp_staple # sequence on the scaffold
+        domain_index = scaffold.find(scaffold_domain) # find the pair of the beginning of the sequence
         scaffold_domains.append(scaffold_domain)
         scaffold_indices.append(domain_index)
         scaffold_identities.append(domain_identity)
 
-        staple_domain = reverse_complement(scaffold_domain)
+        staple_domain = reverse_complement(scaffold_domain) # =staple
         staple_domains.append([staple_domain])
         staple_identities.append([domain_identity])
         continue
@@ -109,7 +109,7 @@ positions = []
 orientations = []
 if CYCLIC:
     position = np.array([0, 0, 0])
-    directions = np.array([1, 0, 0]), np.array([0, -1, 0]), np.array([-1, 0, 0]), np.array([0, 1, 0])
+    directions = np.array([1, 0, 0]), np.array([0, -1, 0]), np.array([-1, 0, 0]), np.array([0, 1, 0]) # 2D directions???
     for direction in directions:
         for j in range(len(scaffold_domains) // 4):
             position += direction

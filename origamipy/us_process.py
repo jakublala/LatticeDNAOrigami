@@ -46,11 +46,11 @@ def create_window_filebases(wins, filebase):
 def read_windows_file(filename):
     """Read windows file and return list of tuple of min max tuples"""
     with open(filename) as inp:
-        lines = inp.readlines()
+        lines = inp.readlines() # a list where each element is a line of the file
 
-    tags = [tag for tag in lines[0].split()]
+    tags = [tag for tag in lines[0].split()] # headers of the windows file
     wins = []
-    for line in lines[1:]:
+    for line in lines[1:]: # iterate all other lines (not headers)
         mins_raw, maxs_raw = line.split(',')
         mins = tuple(map(int, mins_raw.split()))
         maxs = tuple(map(int, maxs_raw.split()))
