@@ -21,10 +21,11 @@ domain_update_biases_present=false
 order_parameter_file=ops_default.json
 #bias_functions_file=us_bias_functions.json
 bias_functions_mult=1
-#energy_filebase=
+energy_filebase=snodin
 simulation_type=constant_temp
 
 # General simulation parameters
+ct_steps=1000000
 movetype_file=movetypes_default.json
 #num_walks_filename=num_walks.arch
 vmd_file_dir=scripts/vmd
