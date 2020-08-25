@@ -23,7 +23,7 @@ export LD_LIBRARY_PATH=~/lib:$LD_LIBRARY_PATH
 export PATH=~/bin/$PATH
 
 # Main job
-latticeDNAOrigami -i test_us.inp > outs/test_const.out
+latticeDNAOrigami -i test_const.inp > outs/test_const.out
 
 # Copy results to slowscratch mirror
 targetdir=$(pwd | sed "s:home:sharedscratch:")/outs/
