@@ -4,11 +4,11 @@
             {
                 "label": "Orientation rotation",
                 "type": "OrientationRotation",
-                "freq": "1"
+                "freq": "0"
             }, {
                 "label": "Met staple exchange",
                 "type": "MetStapleExchange",
-                "freq": "0",
+                "freq": "1",
                 "adaptive_exchange": false
             }, {
                 "label": "CB staple regrowth",
