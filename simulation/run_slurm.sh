@@ -21,10 +21,9 @@ echo "Starting job $SLURM_JOB_ID"
 
 export LD_LIBRARY_PATH=~/lib:$LD_LIBRARY_PATH
 export PATH=~/bin/$PATH
-mkdir -p %OUTPUTFILEDIR
 
 # Main job
-latticeDNAOrigami -i ins/test_us.inp > outs/test_us.out
+latticeDNAOrigami -i test_us.inp > outs/test_const.out
 
 # Copy results to slowscratch mirror
 targetdir=$(pwd | sed "s:home:sharedscratch:")/outs/
