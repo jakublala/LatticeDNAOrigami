@@ -17,6 +17,7 @@ misbinding_s=-19.839896500590086
 stacking_ene=1
 max_total_staples=999
 max_type_staples=999
+excluded_staples=0
 domain_update_biases_present=false
 order_parameter_file=ops_default.json
 #bias_functions_file=us_bias_functions.json
@@ -32,7 +33,7 @@ centering_freq=100000
 constraint_check_freq=100000
 
 # Constant Temperature Option
-ct_steps=1000000
+ct_steps=100000000
 
 # Output options
 output_filebase=outs/test_const
