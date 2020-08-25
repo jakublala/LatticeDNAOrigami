@@ -4,27 +4,27 @@
             {
                 "label": "Orientation rotation",
                 "type": "OrientationRotation",
-                "freq": "2/6"
+                "freq": "1"
             }, {
                 "label": "Met staple exchange",
                 "type": "MetStapleExchange",
-                "freq": "1/6",
+                "freq": "0",
                 "adaptive_exchange": false
             }, {
                 "label": "CB staple regrowth",
                 "type": "CBStapleRegrowth",
-                "freq": "1/6"
+                "freq": "0"
             }, {
                 "label": "Contiguous CTRG scaffold regrowth",
                 "type": "CTRGScaffoldRegrowth",
-                "freq": "1/6",
+                "freq": "0",
                 "max_num_recoils": 1,
                 "max_c_attempts": 36,
                 "max_regrowth": 12
             }, {
                 "label": "Non-contiguous CTRG scaffold regrowth",
                 "type": "CTRGJumpScaffoldRegrowth",
-                "freq": "1/6",
+                "freq": "0",
                 "max_num_recoils": 1,
                 "max_c_attempts": 36,
                 "max_regrowth": 12,
