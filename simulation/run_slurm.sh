@@ -28,7 +28,7 @@ latticeDNAOrigami -i test_const.inp > outs/test_const.out
 # Copy results to slowscratch mirror
 targetdir=$(pwd | sed "s:home:sharedscratch:")/outs/
 mkdir -p $targetdir
-cp outs/test_us.out.* $targetdir/
+cp outs/test_const.out.* $targetdir/
 
 echo
 echo "Job finished. SLURM details are:"
