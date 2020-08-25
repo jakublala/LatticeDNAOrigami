@@ -2,7 +2,7 @@
 origami_input_filename=snodin_unbound.json
 temp=330
 hybridization_pot=NearestNeighbour
-#domain_type=ThreeQuarterTurn
+domain_type=ThreeQuarterTurn
 binding_pot=FourBody
 misbinding_pot=Opposing
 stacking_pot=Constant
@@ -17,7 +17,7 @@ misbinding_s=-19.839896500590086
 #stacking_ene=%STACKENE
 max_total_staples=24
 max_type_staples=2
-domain_update_biases_present=false
+#domain_update_biases_present=false
 order_parameter_file=ops_default.json
 #bias_functions_file=us_bias_functions.json
 bias_functions_mult=1
