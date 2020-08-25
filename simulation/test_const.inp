@@ -1,11 +1,11 @@
 # System input and parameters
 origami_input_filename=snodin_unbound.json
 temp=330
-#hybridization_pot=NearestNeighbour
-#domain_type=ThreeQuarterTurn
-#binding_pot=FourBody
-#misbinding_pot=Opposing
-#stacking_pot=Constant
+hybridization_pot=NearestNeighbour
+domain_type=ThreeQuarterTurn
+binding_pot=FourBody
+misbinding_pot=Opposing
+stacking_pot=Constant
 staple_M=1e-6
 cation_M=1
 temp_for_staple_u=330
