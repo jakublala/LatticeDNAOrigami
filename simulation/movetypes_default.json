@@ -8,23 +8,23 @@
             }, {
                 "label": "Met staple exchange",
                 "type": "MetStapleExchange",
-                "freq": "2/6",
+                "freq": "1/6",
                 "adaptive_exchange": false
             }, {
                 "label": "CB staple regrowth",
                 "type": "CBStapleRegrowth",
-                "freq": "2/6"
+                "freq": "1/6"
             }, {
                 "label": "Contiguous CTRG scaffold regrowth",
                 "type": "CTRGScaffoldRegrowth",
-                "freq": "0",
+                "freq": "1/6",
                 "max_num_recoils": 1,
                 "max_c_attempts": 36,
                 "max_regrowth": 12
             }, {
                 "label": "Non-contiguous CTRG scaffold regrowth",
                 "type": "CTRGJumpScaffoldRegrowth",
-                "freq": "0",
+                "freq": "1/6",
                 "max_num_recoils": 1,
                 "max_c_attempts": 36,
                 "max_regrowth": 12,
