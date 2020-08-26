@@ -1,5 +1,5 @@
 # System input and parameters
-origami_input_filename=snodin_unbound.json
+origami_input_filename=snodin_unbound
 temp=330
 hybridization_pot=NearestNeighbour
 domain_type=ThreeQuarterTurn
@@ -19,14 +19,14 @@ max_total_staples=999
 max_type_staples=999
 excluded_staples=0
 domain_update_biases_present=false
-order_parameter_file=ops_default.json
-bias_functions_file=bias_functions.json
+order_parameter_file=ops_default
+bias_functions_file=bias_functions
 bias_functions_mult=1
 energy_filebase=snodin
 simulation_type=constant_temp
 
 # General simulation parameters
-movetype_file=movetypes_default.json
+movetype_file=movetypes_default
 #num_walks_filename=num_walks.arch
 vmd_file_dir=scripts/vmd
 centering_freq=100000
