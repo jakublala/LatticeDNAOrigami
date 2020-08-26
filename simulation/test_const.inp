@@ -26,7 +26,7 @@ energy_filebase=snodin
 simulation_type=constant_temp
 
 # General simulation parameters
-#movetype_file=movetypes_default.json
+movetype_file=movetypes_default.json
 #num_walks_filename=num_walks.arch
 vmd_file_dir=scripts/vmd
 centering_freq=100000
