@@ -20,8 +20,8 @@ max_type_staples=999
 excluded_staples=0
 domain_update_biases_present=false
 order_parameter_file=ops_default.json
-#bias_functions_file=us_bias_functions.json
-#bias_functions_mult=1
+bias_functions_file=bias_functions.json
+bias_functions_mult=1
 energy_filebase=snodin
 simulation_type=constant_temp
 
