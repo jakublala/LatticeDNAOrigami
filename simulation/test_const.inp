@@ -26,7 +26,7 @@ centering_freq=100000
 constraint_check_freq=100000
 
 # Constant Temperature Option
-ct_steps=10000000000
+ct_steps=1000000000000
 
 # Output options
 output_filebase=outs/test_const
