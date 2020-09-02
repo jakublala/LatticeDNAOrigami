@@ -19,7 +19,7 @@ LDFLAGS = -lboost_program_options -lboost_mpi -lboost_serialization -lboost_syst
 all: $(TARGET)
 
 $(TARGET): calc_num_walks.o $(BUILDDIR)origami_system.o $(BUILDDIR)hash.o $(BUILDDIR)order_params.o $(BUILDDIR)bias_functions.o $(BUILDDIR)origami_potential.o $(BUILDDIR)utility.o $(BUILDDIR)random_gens.o $(BUILDDIR)nearest_neighbour.o $(BUILDDIR)jsoncpp.o $(BUILDDIR)files.o $(BUILDDIR)domain.o $(BUILDDIR)simulation.o $(BUILDDIR)top_constraint_points.o $(BUILDDIR)parser.o $(BUILDDIR)random_gens.o $(BUILDDIR)movetypes.o $(BUILDDIR)ideal_random_walk.o $(BUILDDIR)met_movetypes.o $(BUILDDIR)orientation_movetype.o $(BUILDDIR)rg_movetypes.o $(BUILDDIR)transform_movetypes.o $(BUILDDIR)cb_movetypes.o $(BUILDDIR)us_simulation.o $(BUILDDIR)ptmc_simulation.o
-	$(CPP) $(LDFLAGS) -o $@ $^
+	$(CPP)  -o $@ $^ $(LDFLAGS)
 
 $calc_num_walks.cpp: calc_num_walks.cpp
 	$(CCP) -o $@ -c $(CPPFLAGS) $<
