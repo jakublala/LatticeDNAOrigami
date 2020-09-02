@@ -19,7 +19,7 @@
 using namespace idealRandomWalk;
 using namespace parser;
 
-namespace CalcNumWalks {
+namespace calcNumWalks {
 
     void calc_num_ideal_walks(int max_d, int max_N, string filename);
 }

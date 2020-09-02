@@ -6,7 +6,11 @@
 #include "parser.h"
 #include "utility.h"
 
+<<<<<<< HEAD
 using namespace CalcNumWalks;
+=======
+using namespace calcNumWalks;
+>>>>>>> upstream/master
 using namespace parser;
 
 int main(int argc, char* argv[]) {
@@ -14,7 +18,11 @@ int main(int argc, char* argv[]) {
     calc_num_ideal_walks(78, 156, params.m_num_walks_filename);
 }
 
-void CalcNumWalks::calc_num_ideal_walks(int max_d, int max_N, string filename) { // what is max_d and max_N
+<<<<<<< HEAD
+void CalcNumWalks::calc_num_ideal_walks(int max_d, int max_N, string filename) { # what is max_d and max_N
+=======
+void calcNumWalks::calc_num_ideal_walks(int max_d, int max_N, string filename) {
+>>>>>>> upstream/master
     IdealRandomWalks ideal_random_walks {};
     VectorThree start_pos {0, 0, 0};
     for (int x {0}; x <= max_d; x++) {
@@ -23,7 +31,8 @@ void CalcNumWalks::calc_num_ideal_walks(int max_d, int max_N, string filename) {
             for (int z {0}; z <= y; z++) {
                 VectorThree end_pos {x, y, z};
                 for (int N {0}; N <= max_N; N++) {
-                    auto walks {ideal_random_walks.num_walks(start_pos, end_pos, N)};
+                    auto walks {ideal_random_walks.num_walks(
+                            start_pos, end_pos, N)};
                     if (walks == 0) {
                         ideal_random_walks.delete_entry(start_pos, end_pos, N);
                     }
