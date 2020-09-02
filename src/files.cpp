@@ -379,7 +379,7 @@ void OrigamiBiasFunctionsFile::read_file(string filename) {
     vector<int> levels {};
     vector<vector<string>> op_tags {};
     vector<vector<string>> d_biases_tags {};
-    for (unsigned int i {0}; i != m_json_ops.size(); i++) {
+    for (unsigned int i {0}; i != m_json_ops.size(); i++) { // iterates through all bias function entries
         Json::Value json_op {m_json_ops[i]};
         string type {json_op["type"].asString()};
         string label {json_op["label"].asString()};
@@ -405,7 +405,7 @@ void OrigamiBiasFunctionsFile::read_file(string filename) {
         m_level_to_types.push_back({});
         m_level_to_labels.push_back({});
         m_level_to_tags.push_back({});
-        m_level_to_indices.push_back({});
+        m_level_to_indices.push_back({}); // levels = indices
         m_level_to_ops.push_back({});
         m_level_to_d_biases.push_back({});
     }
@@ -413,7 +413,7 @@ void OrigamiBiasFunctionsFile::read_file(string filename) {
         m_level_to_types[levels[i]].push_back(types[i]);
         m_level_to_labels[levels[i]].push_back(labels[i]);
         m_level_to_tags[levels[i]].push_back(tags[i]);
-        m_level_to_indices[levels[i]].push_back(i);
+        m_level_to_indices[levels[i]].push_back(i); // levels = indices
         m_level_to_ops[levels[i]].push_back(op_tags[i]);
         m_level_to_d_biases[levels[i]].push_back(d_biases_tags[i]);
     }

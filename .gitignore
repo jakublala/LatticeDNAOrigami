@@ -24,3 +24,4 @@ tests/data/
 origamipy.egg-info/
 .spyproject/
 ipython.html
+.vs/
