@@ -6,23 +6,15 @@
 #include "parser.h"
 #include "utility.h"
 
-<<<<<<< HEAD
-using namespace CalcNumWalks;
-=======
+
 using namespace calcNumWalks;
->>>>>>> upstream/master
 using namespace parser;
 
 int main(int argc, char* argv[]) {
     InputParameters params {argc, argv};
     calc_num_ideal_walks(78, 156, params.m_num_walks_filename);
 }
-
-<<<<<<< HEAD
-void CalcNumWalks::calc_num_ideal_walks(int max_d, int max_N, string filename) { # what is max_d and max_N
-=======
 void calcNumWalks::calc_num_ideal_walks(int max_d, int max_N, string filename) {
->>>>>>> upstream/master
     IdealRandomWalks ideal_random_walks {};
     VectorThree start_pos {0, 0, 0};
     for (int x {0}; x <= max_d; x++) {
