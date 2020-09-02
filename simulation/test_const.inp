@@ -14,8 +14,8 @@ max_total_staples=24
 max_type_staples=2
 domain_update_biases_present=false
 order_parameter_file=ops_default.json
-bias_functions_file=bias_functions.json
-bias_functions_mult=1
+#bias_functions_file=bias_functions.json
+#bias_functions_mult=1
 simulation_type=constant_temp
 
 # General simulation parameters
