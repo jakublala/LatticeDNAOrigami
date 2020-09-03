@@ -31,6 +31,12 @@
                 "tag": "numstackedjuncts",
                 "type": "NumStackedJuncts",
                 "level": 0
+            }, {
+                "label": "Number of Fully Bound Staple Type 1",
+                "tag": "numstaplefullboundtype1",
+                "type": "StapleTypeFullyBound",
+                "staple": 1,
+                "level": 0
             }
         ]
     }
