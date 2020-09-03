@@ -1,6 +1,0 @@
-Average bound domain hybridization enthalpy:  -59415.54967090557
-Average bound domain hybridization entropy:  -159.70929944711432
-Average misbound domain hybridization enthalpy:  -7451.239373199893
-Average misbound domain hybridization entropy:  -19.839896500590086
-Average staple hybridization enthalpy:  -124005.87354471884
-Average staple domain hybridization entropy:  -333.680679173069
