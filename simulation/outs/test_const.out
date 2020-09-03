@@ -1,0 +1,1728 @@
+Running serial constant temperature simulation
+Step: 10000
+Temperature: 330
+Bound staples: 8
+Unique bound staples: 8
+Fully bound domain pairs: 13
+Misbound domain pairs: 4
+Stacked domain pairs: 1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 0 1 0 0 1 1 1 0 1 
+System energy: -304.521
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: true
+
+Step: 20000
+Temperature: 330
+Bound staples: 10
+Unique bound staples: 10
+Fully bound domain pairs: 17
+Misbound domain pairs: 3
+Stacked domain pairs: 0
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 0 0 1 1 1 1 1 
+System energy: -381.131
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Contiguous CTRG scaffold regrowth
+Accepted: false
+
+Step: 30000
+Temperature: 330
+Bound staples: 10
+Unique bound staples: 10
+Fully bound domain pairs: 17
+Misbound domain pairs: 4
+Stacked domain pairs: 1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 0 0 1 1 1 1 1 
+System energy: -386.269
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: CB staple regrowth
+Accepted: true
+
+Step: 40000
+Temperature: 330
+Bound staples: 11
+Unique bound staples: 11
+Fully bound domain pairs: 20
+Misbound domain pairs: 2
+Stacked domain pairs: 0
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 0 1 1 1 1 1 1 
+System energy: -436.255
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Met staple exchange
+Accepted: false
+
+Step: 50000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 21
+Misbound domain pairs: 2
+Stacked domain pairs: 0
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -455.019
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Non-contiguous CTRG scaffold regrowth
+Accepted: false
+
+Step: 60000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: false
+
+Step: 70000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Non-contiguous CTRG scaffold regrowth
+Accepted: false
+
+Step: 80000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Contiguous CTRG scaffold regrowth
+Accepted: false
+
+Step: 90000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: 0
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -473.778
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Contiguous CTRG scaffold regrowth
+Accepted: true
+
+Step: 100000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: 0
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -473.778
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: CB staple regrowth
+Accepted: true
+
+Step: 110000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: CB staple regrowth
+Accepted: true
+
+Step: 120000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: false
+
+Step: 130000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Contiguous CTRG scaffold regrowth
+Accepted: true
+
+Step: 140000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Non-contiguous CTRG scaffold regrowth
+Accepted: false
+
+Step: 150000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Met staple exchange
+Accepted: false
+
+Step: 160000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: false
+
+Step: 170000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Met staple exchange
+Accepted: false
+
+Step: 180000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Contiguous CTRG scaffold regrowth
+Accepted: false
+
+Step: 190000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Contiguous CTRG scaffold regrowth
+Accepted: true
+
+Step: 200000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Met staple exchange
+Accepted: false
+
+Step: 210000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Contiguous CTRG scaffold regrowth
+Accepted: false
+
+Step: 220000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: false
+
+Step: 230000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: false
+
+Step: 240000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: false
+
+Step: 250000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Contiguous CTRG scaffold regrowth
+Accepted: false
+
+Step: 260000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: false
+
+Step: 270000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: CB staple regrowth
+Accepted: true
+
+Step: 280000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: false
+
+Step: 290000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Non-contiguous CTRG scaffold regrowth
+Accepted: true
+
+Step: 300000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: 1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -470.748
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Contiguous CTRG scaffold regrowth
+Accepted: false
+
+Step: 310000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: CB staple regrowth
+Accepted: true
+
+Step: 320000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: 1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -470.748
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Met staple exchange
+Accepted: false
+
+Step: 330000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: CB staple regrowth
+Accepted: true
+
+Step: 340000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: CB staple regrowth
+Accepted: true
+
+Step: 350000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Non-contiguous CTRG scaffold regrowth
+Accepted: true
+
+Step: 360000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Non-contiguous CTRG scaffold regrowth
+Accepted: true
+
+Step: 370000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: false
+
+Step: 380000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: false
+
+Step: 390000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: 0
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -473.778
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: CB staple regrowth
+Accepted: true
+
+Step: 400000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: true
+
+Step: 410000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: true
+
+Step: 420000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: false
+
+Step: 430000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: CB staple regrowth
+Accepted: true
+
+Step: 440000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Non-contiguous CTRG scaffold regrowth
+Accepted: true
+
+Step: 450000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: true
+
+Step: 460000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: false
+
+Step: 470000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Contiguous CTRG scaffold regrowth
+Accepted: false
+
+Step: 480000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: 0
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -473.778
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: false
+
+Step: 490000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Non-contiguous CTRG scaffold regrowth
+Accepted: true
+
+Step: 500000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: true
+
+Step: 510000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Non-contiguous CTRG scaffold regrowth
+Accepted: true
+
+Step: 520000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: true
+
+Step: 530000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Met staple exchange
+Accepted: false
+
+Step: 540000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: false
+
+Step: 550000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: false
+
+Step: 560000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: 0
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -473.778
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: false
+
+Step: 570000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: 0
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -473.778
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Met staple exchange
+Accepted: false
+
+Step: 580000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: true
+
+Step: 590000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Met staple exchange
+Accepted: false
+
+Step: 600000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: 0
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -473.778
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Met staple exchange
+Accepted: false
+
+Step: 610000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: false
+
+Step: 620000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Contiguous CTRG scaffold regrowth
+Accepted: false
+
+Step: 630000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Contiguous CTRG scaffold regrowth
+Accepted: true
+
+Step: 640000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: true
+
+Step: 650000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Met staple exchange
+Accepted: false
+
+Step: 660000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: 0
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -473.778
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: CB staple regrowth
+Accepted: true
+
+Step: 670000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Non-contiguous CTRG scaffold regrowth
+Accepted: false
+
+Step: 680000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Met staple exchange
+Accepted: false
+
+Step: 690000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Non-contiguous CTRG scaffold regrowth
+Accepted: true
+
+Step: 700000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Contiguous CTRG scaffold regrowth
+Accepted: true
+
+Step: 710000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: 0
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -473.778
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Met staple exchange
+Accepted: false
+
+Step: 720000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: false
+
+Step: 730000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Contiguous CTRG scaffold regrowth
+Accepted: false
+
+Step: 740000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: CB staple regrowth
+Accepted: true
+
+Step: 750000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: false
+
+Step: 760000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: false
+
+Step: 770000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -3
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -482.869
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: true
+
+Step: 780000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: true
+
+Step: 790000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Contiguous CTRG scaffold regrowth
+Accepted: false
+
+Step: 800000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: false
+
+Step: 810000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Non-contiguous CTRG scaffold regrowth
+Accepted: true
+
+Step: 820000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Non-contiguous CTRG scaffold regrowth
+Accepted: true
+
+Step: 830000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: 0
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -473.778
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: true
+
+Step: 840000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: 0
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -473.778
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Contiguous CTRG scaffold regrowth
+Accepted: false
+
+Step: 850000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Met staple exchange
+Accepted: false
+
+Step: 860000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -1
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -476.808
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: false
+
+Step: 870000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Contiguous CTRG scaffold regrowth
+Accepted: false
+
+Step: 880000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Met staple exchange
+Accepted: false
+
+Step: 890000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Contiguous CTRG scaffold regrowth
+Accepted: false
+
+Step: 900000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -3
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -482.869
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Met staple exchange
+Accepted: false
+
+Step: 910000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -3
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -482.869
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Non-contiguous CTRG scaffold regrowth
+Accepted: true
+
+Step: 920000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -3
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -482.869
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Non-contiguous CTRG scaffold regrowth
+Accepted: true
+
+Step: 930000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -3
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -482.869
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: CB staple regrowth
+Accepted: true
+
+Step: 940000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -3
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -482.869
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Contiguous CTRG scaffold regrowth
+Accepted: false
+
+Step: 950000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Contiguous CTRG scaffold regrowth
+Accepted: false
+
+Step: 960000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -3
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -482.869
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: false
+
+Step: 970000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Contiguous CTRG scaffold regrowth
+Accepted: false
+
+Step: 980000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: 0
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -473.778
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Met staple exchange
+Accepted: false
+
+Step: 990000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Orientation rotation
+Accepted: true
+
+Step: 1000000
+Temperature: 330
+Bound staples: 12
+Unique bound staples: 12
+Fully bound domain pairs: 22
+Misbound domain pairs: 2
+Stacked domain pairs: -2
+Linear helix triplets: 0
+Stacked junction quadruplets: 0
+Staple counts: 1 1 1 1 1 1 1 1 1 1 1 1 
+System energy: -479.839
+Total external bias: 0
+Domain update external bias: 0
+Move update external bias: 0
+Movetype: Non-contiguous CTRG scaffold regrowth
+Accepted: true
+
+Run summary
+
+Movetype: Orientation rotation
+    Attempts: 333176
+    Accepts: 100549
+    Frequency: 0.301789
+
+Movetype: Met staple exchange
+    Attempts: 166695
+    Accepts: 16
+    Frequency: 9.59837e-05
+
+Movetype: CB staple regrowth
+    Attempts: 167481
+    Accepts: 167413
+    Frequency: 0.999594
+
+Movetype: Contiguous CTRG scaffold regrowth
+    Attempts: 166427
+    Accepts: 39845
+    Frequency: 0.239414
+
+Movetype: Non-contiguous CTRG scaffold regrowth
+    Attempts: 166221
+    Accepts: 105550
+    Frequency: 0.634998
+

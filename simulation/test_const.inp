@@ -26,17 +26,17 @@ centering_freq=100000
 constraint_check_freq=100000
 
 # Constant Temperature Option
-ct_steps=1000000000000
+ct_steps=1000000
 
 # Output options
 output_filebase=outs/test_const
-logging_freq=100000
-configs_output_freq=100000
-vtf_output_freq=100000
+logging_freq=10000
+configs_output_freq=10000
+vtf_output_freq=10000
 vcf_per_domain=false
-counts_output_freq=100000
+counts_output_freq=10000
 ops_to_output=numstaples
 order_params_output_freq=10000
-energies_output_freq=100000
-vmd_pipe_freq=100000
+energies_output_freq=10000
+vmd_pipe_freq=10000
 create_vmd_instance=false
