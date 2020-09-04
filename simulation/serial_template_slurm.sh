@@ -24,7 +24,7 @@ export PATH=~/bin/$PATH
 mkdir -p outs
 
 # Main job
-latticeDNAOrigami -i test_const.inp > outs/test_const.out
+~/LatticeDNAOrigami/bin/latticeDNAOrigami -i test_const.inp > outs/test_const.out
 
 # Copy results to slowscratch mirror
 targetdir=$(pwd | sed "s:home:sharedscratch:")/outs/
