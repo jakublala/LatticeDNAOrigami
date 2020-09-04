@@ -1,18 +1,18 @@
 #!/bin/sh
 
 # Name of job
-#SBATCH -J test_const
+SBATCH -J test_const
 
 # Walltime limit (hours:mins:secs)
-#SBATCH -t %WALLTIME:00:00
+SBATCH -t 5:00:00
 
 # Nodes and procs
-#SBATCH -N 1
-#SBATCH -n 1
+SBATCH -N 1
+SBATCH -n 1
 
 # Standard error and out files
-#SBATCH -o outs/test_const.o
-#SBATCH -e outs/test_const.e
+SBATCH -o outs/test_const.o
+SBATCH -e outs/test_const.e
 
 module unload gcc
 module load gcc/6.2.0
