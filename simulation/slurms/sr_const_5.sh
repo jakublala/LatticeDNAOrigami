@@ -10,6 +10,7 @@
 #SBATCH -N 1
 #SBATCH -n 1
 
+mkdir -p ../outs/5
 # Standard error and out files
 #SBATCH -o ../outs/5/sr_const_$ID.o
 #SBATCH -e ../outs/5/sr_const_$ID.e
@@ -21,7 +22,6 @@ echo "Starting job $SLURM_JOB_ID"
 
 export LD_LIBRARY_PATH=~/lib:$LD_LIBRARY_PATH
 export PATH=~/bin/$PATH
-mkdir -p ../outs/5
 
 # Main job
 ~/LatticeDNAOrigami/bin/latticeDNAOrigami -i ../configs/sr_const_5.inp > ../outs/$ID/sr_const_$ID.out
