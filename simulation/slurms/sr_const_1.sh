@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Name of job
-#SBATCH -J sr_const_1
+#SBATCH -J ../configs/sr_const_1
 
 # Walltime limit (hours:mins:secs)
 #SBATCH -t 5:00:00
@@ -11,8 +11,8 @@
 #SBATCH -n 1
 
 # Standard error and out files
-#SBATCH -o outs_1/sr_const_$ID.o
-#SBATCH -e outs_1/sr_const_$ID.e
+#SBATCH -o ../outs/1/sr_const_$ID.o
+#SBATCH -e ../outs/1/sr_const_$ID.e
 
 module unload gcc
 module load gcc/6.2.0
@@ -21,10 +21,10 @@ echo "Starting job $SLURM_JOB_ID"
 
 export LD_LIBRARY_PATH=~/lib:$LD_LIBRARY_PATH
 export PATH=~/bin/$PATH
-mkdir -p outs_1
+mkdir -p ../outs/1
 
 # Main job
-~/LatticeDNAOrigami/bin/latticeDNAOrigami -i sr_const_1 > outs_$ID/sr_const_$ID.out
+~/LatticeDNAOrigami/bin/latticeDNAOrigami -i ../configs/sr_const_1.inp > ../outs/$ID/sr_const_$ID.out
 
 echo
 echo "Job finished. SLURM details are:"
