@@ -1,3 +1,5 @@
+#!/bin/sh
+
 sbatch slurms/sr_const_1.sh
 sbatch slurms/sr_const_2.sh
 sbatch slurms/sr_const_3.sh
