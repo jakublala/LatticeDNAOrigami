@@ -1,5 +1,5 @@
 # System input and parameters
-origami_input_filename=jsons/snodin_unbound_3
+origami_input_filename=jsons/snodin_unbound_3.json
 temp=330
 hybridization_pot=NearestNeighbour
 domain_type=HalfTurn
