@@ -4,7 +4,7 @@
 #SBATCH -J sr_const_4
 
 # Walltime limit (hours:mins:secs)
-#SBATCH -t 5:00:00
+#SBATCH -t 24:00:00
 
 # Nodes and procs
 #SBATCH -N 1
