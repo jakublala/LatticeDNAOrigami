@@ -12,8 +12,8 @@
 
 
 # Standard error and out files
-#SBATCH -o ../outs/1/sr_const_$ID.o
-#SBATCH -e ../outs/1/sr_const_$ID.e
+#SBATCH -o outs_1/sr_const_$ID.o
+#SBATCH -e outs_1/sr_const_$ID.e
 
 module unload gcc
 module load gcc/6.2.0
@@ -22,10 +22,10 @@ echo "Starting job $SLURM_JOB_ID"
 
 export LD_LIBRARY_PATH=~/lib:$LD_LIBRARY_PATH
 export PATH=~/bin/$PATH
-mkdir -p outs/1
+mkdir -p outs
 
 # Main job
-~/LatticeDNAOrigami/bin/latticeDNAOrigami -i sr_const_1.inp > outs/$ID/sr_const_$ID.out
+~/LatticeDNAOrigami/bin/latticeDNAOrigami -i sr_const_1.inp > outs_$ID/sr_const_$ID.out
 
 echo
 echo "Job finished. SLURM details are:"
