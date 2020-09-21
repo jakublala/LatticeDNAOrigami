@@ -1,6 +1,5 @@
 # System input and parameters
 origami_input_filename=snodin_unbound_0.json
-temp=330
 hybridization_pot=NearestNeighbour
 domain_type=HalfTurn
 binding_pot=FourBody
@@ -16,7 +15,7 @@ domain_update_biases_present=false
 order_parameter_file=../ops_default.json
 #bias_functions_file=../bias_functions.json
 #bias_functions_mult=1
-simulation_type=constant_temp
+simulation_type=t_parallel_tempering
 
 # General simulation parameters
 movetype_file=../movetypes_default.json
