@@ -30,6 +30,9 @@ num_reps = 5
 swaps = 1000
 max_pt_dur = 10000000000
 exchange_interval = 10000
+chem_pot_mults="1 1 1 1 1"
+bias_mults="1 1 1 1 1"
+stacking_mults="1 1 1 1 1"
 
 # Output options
 output_filebase=outs_0/sr_const_0
