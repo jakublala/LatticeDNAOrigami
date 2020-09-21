@@ -25,8 +25,12 @@ vmd_file_dir=../scripts/vmd
 centering_freq=10000
 constraint_check_freq=10000
 
-# Constant Temperature Option
-ct_steps=30000000
+# Paralell tempering parameters
+temps = "330 335 340 345 350"
+num_reps = 5
+swaps = 1000
+max_pt_dur = 10000000000
+exchange_interval = 10000
 
 # Output options
 output_filebase=outs_0/sr_const_0
