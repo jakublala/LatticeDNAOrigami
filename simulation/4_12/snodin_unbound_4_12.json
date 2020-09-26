@@ -8,9 +8,9 @@
                 -4,
                 -3,
                 -5,
+                -6,
                 -8,
                 -7,
-                -6,
                 -9,
                 -12,
                 -11,
@@ -22,9 +22,7 @@
                 -17,
                 -16,
                 -20,
-                -19,
-                -21,
-                -22
+                -19
             ],
             [
                 1,
@@ -65,10 +63,6 @@
             [
                 19,
                 20
-            ],
-            [
-                21,
-                22
             ]
         ],
         "sequences": [
@@ -78,9 +72,9 @@
                 "AGGGACACGGGAAAGG",
                 "GCAAAAAAACAAAGAA",
                 "TGGGAGTAGGAAGCGA",
-                "GAAAATAACGGGCAGC",
-                "TATAAAGAAAAAAAGG",
                 "GAAAGATAGAACAGGG",
+                "AGGAGGAAAGAGACAG",
+                "TAGAGTGGTGATAGGG",
                 "AGAAGAAAAGAAGAAA",
                 "AAGAGGAGAGCAAGAA",
                 "ACGGGATAGAGAAGAG",
@@ -92,9 +86,7 @@
                 "GGATAAGAGACGGGGA",
                 "GAAGTGAAGAAAGAAG",
                 "GAGGATAAAAAGACAG",
-                "ATGGACACGAAAGGAA",
-                "GATAGGAGGGGGAGCG",
-                "ACGAATAAAAGGAAAC"
+                "ATGGACACGAAAGGAA"
             ],
             [
                 "TTCCGTATCTTTGCAT",
@@ -109,8 +101,8 @@
                 "CCCTGTTCTATCTTTC"
             ],
             [
-                "CCTTTTTTTCTTTATA",
-                "GCTGCCCGTTATTTTC"
+                "CCCTATCACCACTCTA",
+                "CTGTCTCTTTCCTCCT"
             ],
             [
                 "TTTCTTCTTTTCTTCT",
@@ -135,10 +127,6 @@
             [
                 "TTCCTTTCGTGTCCAT",
                 "CTGTCTTTTTATCCTC"
-            ],
-            [
-                "CGCTCCCCCTCCTATC",
-                "GTTTCCTTTTATTCGT"
             ]
         ],
         "configurations": [
@@ -248,29 +236,9 @@
                                 19,
                                 0,
                                 0
-                            ],
-                            [
-                                20,
-                                0,
-                                0
-                            ],
-                            [
-                                21,
-                                0,
-                                0
                             ]
                         ],
                         "orientations": [
-                            [
-                                1,
-                                0,
-                                0
-                            ],
-                            [
-                                1,
-                                0,
-                                0
-                            ],
                             [
                                 1,
                                 0,

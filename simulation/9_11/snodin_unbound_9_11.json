@@ -19,10 +19,10 @@
                 -12,
                 -16,
                 -15,
-                -17,
                 -18,
-                -20,
-                -19
+                -17,
+                -19,
+                -20
             ],
             [
                 1,
@@ -83,10 +83,10 @@
                 "GAACAGCAAAAGACAA",
                 "AGAAGAGGGGCAAGAG",
                 "AGGATAGAAGTACGAG",
-                "ATAAGGGGTAGAAGCG",
-                "GAAGTGAAGAAAGAAG",
-                "GAGGATAAAAAGACAG",
-                "ATGGACACGAAAGGAA"
+                "AAAAGCAAAAAATAAG",
+                "GGATAAGAGACGGGGA",
+                "GATAGGAGGGGGAGCG",
+                "ACGAATAAAAGGAAAC"
             ],
             [
                 "TTCCGTATCTTTGCAT",
@@ -121,12 +121,12 @@
                 "CTCTTGCCCCTCTTCT"
             ],
             [
-                "CGCTTCTACCCCTTAT",
-                "CTTCTTTCTTCACTTC"
+                "TCCCCGTCTCTTATCC",
+                "CTTATTTTTTGCTTTT"
             ],
             [
-                "TTCCTTTCGTGTCCAT",
-                "CTGTCTTTTTATCCTC"
+                "CGCTCCCCCTCCTATC",
+                "GTTTCCTTTTATTCGT"
             ]
         ],
         "configurations": [

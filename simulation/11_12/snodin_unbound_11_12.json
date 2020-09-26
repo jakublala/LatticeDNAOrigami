@@ -22,9 +22,7 @@
                 -17,
                 -20,
                 -19,
-                -18,
-                -22,
-                -21
+                -18
             ],
             [
                 1,
@@ -65,10 +63,6 @@
             [
                 19,
                 20
-            ],
-            [
-                21,
-                22
             ]
         ],
         "sequences": [
@@ -92,9 +86,7 @@
                 "ATAAGGGGTAGAAGCG",
                 "AAAAGCAAAAAATAAG",
                 "GGATAAGAGACGGGGA",
-                "GAAGTGAAGAAAGAAG",
-                "GAGGATAAAAAGACAG",
-                "ATGGACACGAAAGGAA"
+                "GAAGTGAAGAAAGAAG"
             ],
             [
                 "TTCCGTATCTTTGCAT",
@@ -135,10 +127,6 @@
             [
                 "TCCCCGTCTCTTATCC",
                 "CTTATTTTTTGCTTTT"
-            ],
-            [
-                "TTCCTTTCGTGTCCAT",
-                "CTGTCTTTTTATCCTC"
             ]
         ],
         "configurations": [
@@ -248,29 +236,9 @@
                                 19,
                                 0,
                                 0
-                            ],
-                            [
-                                20,
-                                0,
-                                0
-                            ],
-                            [
-                                21,
-                                0,
-                                0
                             ]
                         ],
                         "orientations": [
-                            [
-                                1,
-                                0,
-                                0
-                            ],
-                            [
-                                1,
-                                0,
-                                0
-                            ],
                             [
                                 1,
                                 0,

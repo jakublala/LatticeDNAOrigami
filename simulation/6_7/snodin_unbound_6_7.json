@@ -13,8 +13,8 @@
                 -6,
                 -10,
                 -9,
-                -11,
                 -12,
+                -11,
                 -13,
                 -16,
                 -15,
@@ -77,8 +77,8 @@
                 "GAAAGATAGAACAGGG",
                 "AGGAGGAAAGAGACAG",
                 "TAGAGTGGTGATAGGG",
-                "AGAAGAAAAGAAGAAA",
-                "GAACAGCAAAAGACAA",
+                "AGAAGAGGGGCAAGAG",
+                "AGGATAGAAGTACGAG",
                 "ATAAGGGGTAGAAGCG",
                 "AAAAGCAAAAAATAAG",
                 "GGATAAGAGACGGGGA",
@@ -109,8 +109,8 @@
                 "CTGTCTCTTTCCTCCT"
             ],
             [
-                "TTTCTTCTTTTCTTCT",
-                "TTGTCTTTTGCTGTTC"
+                "CTCGTACTTCTATCCT",
+                "CTCTTGCCCCTCTTCT"
             ],
             [
                 "CGCTTCTACCCCTTAT",

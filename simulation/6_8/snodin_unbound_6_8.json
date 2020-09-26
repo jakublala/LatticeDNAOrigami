@@ -13,12 +13,12 @@
                 -6,
                 -10,
                 -9,
-                -11,
                 -12,
-                -14,
+                -11,
                 -13,
                 -16,
                 -15,
+                -14,
                 -18,
                 -17,
                 -19,
@@ -77,12 +77,12 @@
                 "GAAAGATAGAACAGGG",
                 "AGGAGGAAAGAGACAG",
                 "TAGAGTGGTGATAGGG",
-                "AGAAGAAAAGAAGAAA",
-                "GAACAGCAAAAGACAA",
-                "AGAAGAGGGGCAAGAG",
-                "AGGATAGAAGTACGAG",
+                "AAGAGGAGAGCAAGAA",
+                "ACGGGATAGAGAAGAG",
+                "ATAAGGGGTAGAAGCG",
                 "AAAAGCAAAAAATAAG",
                 "GGATAAGAGACGGGGA",
+                "GAAGTGAAGAAAGAAG",
                 "GAGGATAAAAAGACAG",
                 "ATGGACACGAAAGGAA",
                 "GATAGGAGGGGGAGCG",
@@ -109,12 +109,12 @@
                 "CTGTCTCTTTCCTCCT"
             ],
             [
-                "TTTCTTCTTTTCTTCT",
-                "TTGTCTTTTGCTGTTC"
+                "CTCTTCTCTATCCCGT",
+                "TTCTTGCTCTCCTCTT"
             ],
             [
-                "CTCGTACTTCTATCCT",
-                "CTCTTGCCCCTCTTCT"
+                "CGCTTCTACCCCTTAT",
+                "CTTCTTTCTTCACTTC"
             ],
             [
                 "TCCCCGTCTCTTATCC",

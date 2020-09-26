@@ -3,8 +3,8 @@
         "cyclic": false,
         "identities": [
             [
-                -1,
                 -2,
+                -1,
                 -3,
                 -6,
                 -5,
@@ -18,9 +18,9 @@
                 -14,
                 -13,
                 -15,
+                -16,
                 -18,
                 -17,
-                -16,
                 -19,
                 -20
             ],
@@ -67,8 +67,8 @@
         ],
         "sequences": [
             [
-                "ATGCAAAGATACGGAA",
-                "AAGGGAGAGAAAGAAG",
+                "AGGGACACGGGAAAGG",
+                "GCAAAAAAACAAAGAA",
                 "TGGGAGTAGGAAGCGA",
                 "GAAAATAACGGGCAGC",
                 "TATAAAGAAAAAAAGG",
@@ -82,15 +82,15 @@
                 "AGAAGAGGGGCAAGAG",
                 "AGGATAGAAGTACGAG",
                 "ATAAGGGGTAGAAGCG",
-                "AAAAGCAAAAAATAAG",
-                "GGATAAGAGACGGGGA",
                 "GAAGTGAAGAAAGAAG",
+                "GAGGATAAAAAGACAG",
+                "ATGGACACGAAAGGAA",
                 "GATAGGAGGGGGAGCG",
                 "ACGAATAAAAGGAAAC"
             ],
             [
-                "TTCCGTATCTTTGCAT",
-                "CTTCTTTCTCTCCCTT"
+                "TTCTTTGTTTTTTTGC",
+                "CCTTTCCCGTGTCCCT"
             ],
             [
                 "TCGCTTCCTACTCCCA",
@@ -121,8 +121,8 @@
                 "CTTCTTTCTTCACTTC"
             ],
             [
-                "TCCCCGTCTCTTATCC",
-                "CTTATTTTTTGCTTTT"
+                "TTCCTTTCGTGTCCAT",
+                "CTGTCTTTTTATCCTC"
             ],
             [
                 "CGCTCCCCCTCCTATC",
